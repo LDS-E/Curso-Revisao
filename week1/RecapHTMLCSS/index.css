@@ -1,0 +1,11 @@
+nav {
+  background-color: grey;
+}
+
+.header_ul {
+  list-style: square;
+}
+
+footer {
+  background-color: blueviolet;
+}
