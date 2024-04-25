@@ -1,25 +1,70 @@
-git init: Inicializa um novo repositório Git.
-git clone <URL>: Clona um repositório remoto para o seu computador.
-git add <arquivo>: Adiciona um arquivo ao índice para ser incluído no próximo commit.
-git commit -m "Mensagem": Registra as mudanças no repositório com uma mensagem de commit.
-git status: Mostra o status atual do repositório.
-git pull: Puxa as mudanças do repositório remoto para o seu repositório local.
-git push: Empurra as mudanças do seu repositório local para o repositório remoto.
-git branch: Lista todas as branches no repositório.
-git checkout <branch>: Muda para a branch especificada.
-git merge <branch>: Mescla uma branch específica na branch atual.
-git log: Mostra o histórico de commits.
+# Comandos do Git:
 
-///////////////////
+# Inicializa um novo repositório Git
+git init
 
-ls: Lista os arquivos e diretórios no diretório atual.
-cd <diretório>: Navega para o diretório especificado.
-mkdir <nome_do_diretório>: Cria um novo diretório.
-rm <arquivo>: Remove um arquivo.
-rm -r <diretório>: Remove um diretório e seu conteúdo recursivamente.
-cp <origem> <destino>: Copia arquivos ou diretórios.
-mv <origem> <destino>: Move ou renomeia arquivos ou diretórios.
-touch <arquivo>: Cria um novo arquivo vazio.
-cat <arquivo>: Exibe o conteúdo de um arquivo.
-pwd: Mostra o diretório atual.
-grep <padrão> <arquivo>: Pesquisa por padrões em arquivos.
+# Clona um repositório remoto para o seu computador
+git clone <URL>
+
+# Adiciona um arquivo ao índice para ser incluído no próximo commit
+git add <arquivo>
+
+# Registra as mudanças no repositório com uma mensagem de commit
+git commit -m "Mensagem"
+
+# Mostra o status atual do repositório
+git status
+
+# Puxa as mudanças do repositório remoto para o seu repositório local
+git pull
+
+# Empurra as mudanças do seu repositório local para o repositório remoto
+git push
+
+# Lista todas as branches no repositório
+git branch
+
+# Muda para a branch especificada
+git checkout <branch>
+
+# Mescla uma branch específica na branch atual
+git merge <branch>
+
+# Mostra o histórico de commits
+git log
+
+
+# Comandos do Bash (Shell):
+
+# Lista os arquivos e diretórios no diretório atual
+ls
+
+# Navega para o diretório especificado
+cd <diretório>
+
+# Cria um novo diretório
+mkdir <nome_do_diretório>
+
+# Remove um arquivo
+rm <arquivo>
+
+# Remove um diretório e seu conteúdo recursivamente
+rm -r <diretório>
+
+# Copia arquivos ou diretórios
+cp <origem> <destino>
+
+# Move ou renomeia arquivos ou diretórios
+mv <origem> <destino>
+
+# Cria um novo arquivo vazio
+touch <arquivo>
+
+# Exibe o conteúdo de um arquivo
+cat <arquivo>
+
+# Mostra o diretório atual
+pwd
+
+# Pesquisa por padrões em arquivos
+grep <padrão> <arquivo>
